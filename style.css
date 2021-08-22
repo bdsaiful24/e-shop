@@ -113,7 +113,7 @@ img{
 .product-img img{
     height: 100%;
 }
-.product-overlay p{
+.product-overlay a{
     background: Crimson;
     padding: 10px 12px;
     display: inline-block;
@@ -127,8 +127,6 @@ img{
     width: 100%;
     height: 100%;
     transform: scale(0);
-    opacity: 0;
-    visibility: hidden;
     transform-origin: left;
     text-align: center;
     padding: 100px 0;
@@ -137,8 +135,6 @@ img{
 }
 .product-img:hover .product-overlay{
     transform: scale(1);
-    visibility: visible;
-    opacity: 1;
 }
 .product-ratting h2{
     padding-top: 10px;
@@ -191,11 +187,11 @@ img{
 }
 .testimonial{
     width: 32%;
+    margin-left: 2%;
     background-color: #eeeeee;
     padding: 5% 2% 1% 2%;
-    position: relative;
     box-sizing: border-box;
-    margin-left: 2%;
+    position: relative;    
     transition: .4s;
 }
 .testimonial:first-child{
@@ -227,6 +223,7 @@ img{
 .testimonial img:nth-child(n+2){
     width: 50px;
     height: 50px;
+    filter: opacity(25%);
     transition: .4s;
 }
 .top-quote {
