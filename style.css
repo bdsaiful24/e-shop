@@ -114,10 +114,10 @@ img{
     height: 100%;
 }
 .product-overlay a{
-    background: Crimson;
-    padding: 10px 12px;
-    display: inline-block;
-    color: #fff;
+display: inline-block;
+background: Crimson;
+padding: 10px 12px;
+color: #fff;
 }
 .product-overlay{
     background: rgba(0,0,0, .4);
